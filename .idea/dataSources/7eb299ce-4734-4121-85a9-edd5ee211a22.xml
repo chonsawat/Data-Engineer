@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="CSMOB">
+  <database-model serializer="dbm" dbms="MONGO" family-id="MONGO" format-version="4.20">
+    <root id="1">
+      <ServerVersion>4.4.4</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="CN"/>
+    <schema id="3" parent="1" name="ComputerNetwork"/>
+    <schema id="4" parent="1" name="DataEngineer"/>
+    <schema id="5" parent="1" name="Practice"/>
+    <schema id="6" parent="1" name="admin"/>
+    <schema id="7" parent="1" name="config"/>
+    <schema id="8" parent="1" name="local"/>
+    <table id="9" parent="4" name="search"/>
+  </database-model>
+</dataSource>
